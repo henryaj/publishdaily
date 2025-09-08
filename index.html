@@ -24,31 +24,44 @@
                         'cabin': ['Cabin', 'sans-serif'],
                     },
                     colors: {
-                        'dark-blue': {
-                            50: '#f0f4ff',
-                            100: '#e0e7ff',
-                            200: '#c7d2fe',
-                            300: '#a5b4fc',
-                            400: '#818cf8',
-                            500: '#6366f1',
-                            600: '#4f46e5',
-                            700: '#4338ca',
-                            800: '#3730a3',
-                            900: '#312e81',
-                            950: '#1e1b4b',
+                        'manila': {
+                            50: '#fefdfb',
+                            100: '#fdf9f1',
+                            200: '#faf3e3',
+                            300: '#f5eaca',
+                            400: '#eddaa8',
+                            500: '#e4c987',
+                            600: '#d4b76a',
+                            700: '#c4a352',
+                            800: '#a18345',
+                            900: '#836b3a',
+                            950: '#463920',
                         },
-                        'purple': {
-                            50: '#faf5ff',
-                            100: '#f3e8ff',
-                            200: '#e9d5ff',
-                            300: '#d8b4fe',
-                            400: '#c084fc',
-                            500: '#a855f7',
-                            600: '#9333ea',
-                            700: '#7c3aed',
-                            800: '#6b21a8',
-                            900: '#581c87',
-                            950: '#3b0764',
+                        'brown': {
+                            50: '#fdf8f6',
+                            100: '#f2e8e5',
+                            200: '#eaddd7',
+                            300: '#e0cec7',
+                            400: '#d2bab0',
+                            500: '#bfa094',
+                            600: '#a18072',
+                            700: '#977669',
+                            800: '#7f6155',
+                            900: '#6c5248',
+                            950: '#3a2b25',
+                        },
+                        'bottle-green': {
+                            50: '#f0f9f4',
+                            100: '#dcf2e4',
+                            200: '#bce4cc',
+                            300: '#8dcfa8',
+                            400: '#59b47d',
+                            500: '#3a9b5c',
+                            600: '#2d7d48',
+                            700: '#26653c',
+                            800: '#225232',
+                            900: '#1f432b',
+                            950: '#0f2517',
                         }
                     }
                 }
@@ -56,80 +69,79 @@
         }
     </script>
 </head>
-<body class="font-geist text-gray-100 bg-gradient-to-br from-dark-blue-950 via-purple-950 to-dark-blue-900">
+<body class="font-geist text-brown-950 bg-manila-100">
     <!-- Hero Section -->
-    <section class="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-br from-dark-blue-600/20 via-purple-600/10 to-dark-blue-800/20"></div>
+    <section class="min-h-screen flex items-center justify-center relative overflow-hidden bg-manila-200">
         <div class="container mx-auto px-6 relative z-10 text-center">
-            <h1 class="font-cabin text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-purple-300 to-dark-blue-300 bg-clip-text text-transparent">
+            <h1 class="font-cabin text-6xl md:text-8xl font-bold mb-6 text-brown-950">
                 PublishDaily
             </h1>
-            <p class="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            <p class="text-xl md:text-2xl mb-8 text-brown-800 max-w-3xl mx-auto leading-relaxed">
                 Transform your writing with 30 days of daily publishing. Join a community of committed writers this November.
             </p>
-            <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" class="inline-block bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" class="inline-block bg-bottle-green-600 hover:bg-bottle-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Join the Challenge
             </a>
         </div>
     </section>
 
     <!-- Challenge Details -->
-    <section class="py-20 bg-dark-blue-950/50">
+    <section class="py-20 bg-manila-50">
         <div class="container mx-auto px-6">
-            <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-8 text-center text-purple-300">The Challenge</h2>
-            <p class="text-lg text-gray-300 mb-12 max-w-4xl mx-auto text-center leading-relaxed">
-                Like <a href="https://inkhaven.blog" class="underline">Inkhaven</a> but online. It's designed for writers who want to build a consistent publishing habit through community support and meaningful commitment.
+            <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-8 text-center text-brown-950">The Challenge</h2>
+            <p class="text-lg text-brown-800 mb-12 max-w-4xl mx-auto text-center leading-relaxed">
+                Like <a href="https://inkhaven.blog" class="underline text-bottle-green-700 hover:text-bottle-green-800">Inkhaven</a> but online. It's designed for writers who want to build a consistent publishing habit through community support and meaningful commitment.
             </p>
 
-            <div class="bg-gradient-to-r from-purple-900/30 to-dark-blue-900/30 border border-purple-700/30 rounded-xl p-8 max-w-4xl mx-auto backdrop-blur-sm">
-                <div class="space-y-4 text-gray-300">
-                    <p><span class="font-semibold text-purple-400">Commitment:</span> Publish 500+ words every day for 30 days in November 2025</p>
-                    <p><span class="font-semibold text-purple-400">Investment:</span> Single buy-in ($25 USD) into a shared tontine pot</p>
-                    <p><span class="font-semibold text-purple-400">Reward:</span> Complete the challenge and split the pot with other finishers</p>
-                    <p><span class="font-semibold text-purple-400">Community:</span> Daily support and accountability through our Slack community</p>
+            <div class="bg-manila-300 border border-manila-400 rounded-xl p-8 max-w-4xl mx-auto">
+                <div class="space-y-4 text-brown-900">
+                    <p><span class="font-semibold text-bottle-green-700">Commitment:</span> Publish 500+ words every day for 30 days in November 2025</p>
+                    <p><span class="font-semibold text-bottle-green-700">Investment:</span> Single buy-in ($25 USD) into a shared tontine pot</p>
+                    <p><span class="font-semibold text-bottle-green-700">Reward:</span> Complete the challenge and split the pot with other finishers</p>
+                    <p><span class="font-semibold text-bottle-green-700">Community:</span> Daily support and accountability through our Slack community</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Rules Section -->
-    <section class="py-20 bg-gradient-to-b from-purple-950/30 to-dark-blue-950/30">
+    <section class="py-20 bg-manila-200">
         <div class="container mx-auto px-6">
-            <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-12 text-center text-purple-300">Challenge Rules</h2>
+            <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-12 text-center text-brown-950">Challenge Rules</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                <div class="bg-dark-blue-900/40 border border-dark-blue-700/30 rounded-xl p-6 backdrop-blur-sm hover:bg-dark-blue-900/50 transition-all duration-300">
-                    <h3 class="font-cabin text-xl font-bold mb-4 text-purple-300">Publish every day</h3>
-                    <p class="text-gray-300">Write and publish 500+ words every single day. No exceptions, no catch-up days.</p>
+                <div class="bg-manila-100 border border-manila-300 rounded-xl p-6 hover:bg-manila-50 transition-all duration-300 shadow-sm">
+                    <h3 class="font-cabin text-xl font-bold mb-4 text-bottle-green-700">Publish every day</h3>
+                    <p class="text-brown-900">Write and publish 500+ words every single day. No exceptions, no catch-up days.</p>
                 </div>
-                <div class="bg-dark-blue-900/40 border border-dark-blue-700/30 rounded-xl p-6 backdrop-blur-sm hover:bg-dark-blue-900/50 transition-all duration-300">
-                    <h3 class="font-cabin text-xl font-bold mb-4 text-purple-300">Write in public</h3>
-                    <p class="text-gray-300">Publish anywhere public: personal blog, Medium, Substack, or your preferred platform.</p>
+                <div class="bg-manila-100 border border-manila-300 rounded-xl p-6 hover:bg-manila-50 transition-all duration-300 shadow-sm">
+                    <h3 class="font-cabin text-xl font-bold mb-4 text-bottle-green-700">Write in public</h3>
+                    <p class="text-brown-900">Publish anywhere public: personal blog, Medium, Substack, or your preferred platform.</p>
                 </div>
-                <div class="bg-dark-blue-900/40 border border-dark-blue-700/30 rounded-xl p-6 backdrop-blur-sm hover:bg-dark-blue-900/50 transition-all duration-300">
-                    <h3 class="font-cabin text-xl font-bold mb-4 text-purple-300">Midnight PST deadline</h3>
-                    <p class="text-gray-300">Posts must be published before midnight Pacific time each day.</p>
+                <div class="bg-manila-100 border border-manila-300 rounded-xl p-6 hover:bg-manila-50 transition-all duration-300 shadow-sm">
+                    <h3 class="font-cabin text-xl font-bold mb-4 text-bottle-green-700">Midnight PST deadline</h3>
+                    <p class="text-brown-900">Posts must be published before midnight Pacific time each day.</p>
                 </div>
-                <div class="bg-dark-blue-900/40 border border-dark-blue-700/30 rounded-xl p-6 backdrop-blur-sm hover:bg-dark-blue-900/50 transition-all duration-300">
-                    <h3 class="font-cabin text-xl font-bold mb-4 text-purple-300">Original content only</h3>
-                    <p class="text-gray-300">All writing must be original. No republishing or recycling existing content.</p>
+                <div class="bg-manila-100 border border-manila-300 rounded-xl p-6 hover:bg-manila-50 transition-all duration-300 shadow-sm">
+                    <h3 class="font-cabin text-xl font-bold mb-4 text-bottle-green-700">Original content only</h3>
+                    <p class="text-brown-900">All writing must be original. No republishing or recycling existing content.</p>
                 </div>
             </div>
             
-            <div class="bg-gradient-to-r from-red-900/20 to-purple-900/20 border border-red-700/30 rounded-xl p-8 max-w-4xl mx-auto backdrop-blur-sm text-center">
-                <p class="text-gray-300"><strong>Miss a day and you're out of the tontine</strong> (but welcome to continue for community support).</p>
+            <div class="bg-manila-100 border border-brown-300 rounded-xl p-8 max-w-4xl mx-auto text-center">
+                <p class="text-brown-950"><strong>Miss a day and you're out of the tontine</strong> (but welcome to continue for community support).</p>
             </div>
         </div>
     </section>
 
     <!-- Sign-up Section -->
-    <section id="signup" class="py-20 bg-dark-blue-950/50">
+    <section id="signup" class="py-20 bg-manila-50">
         <div class="container mx-auto px-6">
-            <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-8 text-center text-purple-300">Ready to Transform Your Writing?</h2>
-            <p class="text-lg text-gray-300 mb-12 max-w-3xl mx-auto text-center">
+            <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-8 text-center text-brown-950">Ready to Transform Your Writing?</h2>
+            <p class="text-lg text-brown-800 mb-12 max-w-3xl mx-auto text-center">
                 We're gathering interest for the November 2025 challenge. Sign up below to be notified when registration opens and help us gauge demand.
             </p>
             <div class="text-center">
-                <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" class="inline-block bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" class="inline-block bg-bottle-green-600 hover:bg-bottle-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                     Register Your Interest
                 </a>
             </div>
@@ -138,10 +150,10 @@
 
 
     <!-- Footer -->
-    <footer class="bg-dark-blue-950 border-t border-purple-900/30 py-12">
+    <footer class="bg-manila-300 border-t border-manila-400 py-12">
         <div class="container mx-auto px-6 text-center">
-            <p class="text-gray-400 mb-2">&copy; 2025 PublishDaily. Building on the success of the <a href="#" class="text-purple-400 hover:text-purple-300 transition-colors underline">Inkhaven</a> writing residency.</p>
-            <p class="text-gray-400">Questions? <a href="mailto:publishdaily@henrystanley.com" class="text-purple-400 hover:text-purple-300 transition-colors underline">Email us</a>.</p>
+            <p class="text-brown-800 mb-2">&copy; 2025 PublishDaily. Building on the success of the <a href="#" class="text-bottle-green-700 hover:text-bottle-green-800 transition-colors underline">Inkhaven</a> writing residency.</p>
+            <p class="text-brown-800">Questions? <a href="mailto:publishdaily@henrystanley.com" class="text-bottle-green-700 hover:text-bottle-green-800 transition-colors underline">Email us</a>.</p>
         </div>
     </footer>
 </body>
