@@ -1,10 +1,10 @@
-# PublishDaily Project Brief
+# BloWriMo Project Brief
 
 ## Overview
 Creating an online version of the Inkhaven writing residency - a month-long daily writing challenge for November 2025 with financial commitment device and community support.
 
 ## Project Name
-**PublishDaily** - emphasises the online publishing aspect and clear daily commitment.
+**BloWriMo** - Blog Writing Month, emphasising the online publishing aspect and clear daily commitment.
 
 ## Core Concept
 - Participants commit to publishing 500+ words every day for 30 days in November
@@ -14,7 +14,7 @@ Creating an online version of the Inkhaven writing residency - a month-long dail
 - Self-reported progress with URL submission for verification
 
 ## Immediate MVP Goal
-Build a simple HTML landing page on GitHub Pages (publishdaily.henrystanley.com) with:
+Build a simple HTML landing page on GitHub Pages (blowrimo.henrystanley.com) with:
 - Compelling copy explaining the challenge
 - Airtable form for interest collection
 - Basic info about rules and timeline
