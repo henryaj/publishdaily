@@ -63,11 +63,29 @@
                             900: '#1f432b',
                             950: '#0f2517',
                         }
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
+                        'fade-in-up-delay-1': 'fadeInUp 0.6s ease-out 0.3s forwards',
+                        'fade-in-up-delay-2': 'fadeInUp 0.6s ease-out 0.9s forwards',
+                        'fade-in-up-delay-3': 'fadeInUp 0.6s ease-out 1.35s forwards',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(30px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        }
                     }
                 }
             }
         }
     </script>
+    
+    <style>
+        .animate-on-load {
+            opacity: 0;
+        }
+    </style>
 </head>
 <body class="font-geist text-brown-950 bg-manila-100">
     <!-- Hero Section -->
@@ -75,18 +93,18 @@
         <div class="container mx-auto px-6 relative z-10 text-center">
             <h1 class="font-cabin text-6xl md:text-8xl font-bold mb-4 text-brown-950">
                 <div class="inline-block">
-                    <p class="text-lg md:text-xl font-light mb-2 text-brown-700 text-left ml-2">
+                    <p class="text-lg md:text-xl font-light mb-2 text-brown-700 text-left ml-2 animate-on-load animate-fade-in-up-delay-1">
                         (Blogpost Writing Month)
                     </p>
-                    <div class="flex items-end justify-center -mt-3">
+                    <div class="flex items-end justify-center -mt-3 animate-on-load animate-fade-in-up">
                         BloWriMo<sup class="text-3xl md:text-4xl ml-1 -top-12">✍️</sup>
                     </div>
                 </div>
             </h1>
-            <p class="text-xl md:text-2xl mb-8 text-brown-800 max-w-3xl mx-auto leading-relaxed">
+            <p class="text-xl md:text-2xl mb-8 text-brown-800 max-w-3xl mx-auto leading-relaxed animate-on-load animate-fade-in-up-delay-2">
                 Transform your writing with 30 days of daily publishing. Join a community of committed writers this November.
             </p>
-            <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" class="inline-block bg-bottle-green-600 hover:bg-bottle-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" class="inline-block bg-bottle-green-600 hover:bg-bottle-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg animate-on-load animate-fade-in-up-delay-3">
                 Join the Challenge
             </a>
         </div>
