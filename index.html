@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BloWriMo - 30-Day Writing Challenge</title>
-    <meta name="description" content="Join BloWriMo: blogpost writing month, a month-long blo writing challenge with community support and financial commitment.">
+    <meta name="description" content="Join BloWriMo: blogpost writing month, a month-long blog writing challenge with community support and financial commitment. Transform your writing with 30 days of daily publishing in November 2025.">
+    <link rel="canonical" href="https://blowrimo.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://blowrimo.com/">
+    <meta property="og:title" content="BloWriMo - 30-Day Writing Challenge">
+    <meta property="og:description" content="Join BloWriMo: blogpost writing month, a month-long blog writing challenge with community support and financial commitment. Transform your writing with 30 days of daily publishing in November 2025.">
+    <meta property="og:image" content="https://blowrimo.com/og-image.jpg">
+    <meta property="og:site_name" content="BloWriMo">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://blowrimo.com/">
+    <meta property="twitter:title" content="BloWriMo - 30-Day Writing Challenge">
+    <meta property="twitter:description" content="Join BloWriMo: blogpost writing month, a month-long blog writing challenge with community support and financial commitment. Transform your writing with 30 days of daily publishing in November 2025.">
+    <meta property="twitter:image" content="https://blowrimo.com/og-image.jpg">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,7 +28,8 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Cabin:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Cabin:wght@400..700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Cabin:wght@400..700&display=swap" rel="stylesheet"></noscript>
 
     <!-- Tailwind Config -->
     <script>
@@ -91,12 +108,48 @@
             opacity: 0;
         }
     </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "BloWriMo - 30-Day Writing Challenge",
+        "description": "Join BloWriMo: blogpost writing month, a month-long blog writing challenge with community support and financial commitment. Transform your writing with 30 days of daily publishing in November 2025.",
+        "url": "https://blowrimo.com/",
+        "startDate": "2025-11-01",
+        "endDate": "2025-11-30",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+            "@type": "VirtualLocation",
+            "url": "https://blowrimo.com/"
+        },
+        "organizer": {
+            "@type": "Organization",
+            "name": "BloWriMo",
+            "url": "https://blowrimo.com/"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "25",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": "https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form"
+        }
+    }
+    </script>
 </head>
 <body class="font-geist text-brown-950 bg-manila-100">
-    <!-- Hero Section -->
-    <section class="min-h-screen flex items-center justify-center relative overflow-hidden bg-manila-200">
+    <header>
+        <h1 class="sr-only">BloWriMo - 30-Day Writing Challenge</h1>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="min-h-screen flex items-center justify-center relative overflow-hidden bg-manila-200" role="banner">
         <div class="container mx-auto px-6 relative z-10 text-center">
-            <h1 class="font-cabin text-6xl md:text-8xl font-bold mb-4 text-brown-950">
+            <h2 class="font-cabin text-6xl md:text-8xl font-bold mb-4 text-brown-950">
                 <div class="inline-block">
                     <p class="text-lg md:text-xl font-light mb-2 text-brown-700 text-left ml-2 animate-on-load animate-fade-in-delay-1">
                         (Blogpost Writing Month)
@@ -105,22 +158,22 @@
                         BloWriMo<sup class="text-3xl md:text-4xl ml-1 -top-12">✍️</sup>
                     </div>
                 </div>
-            </h1>
+            </h2>
             <p class="text-xl md:text-2xl mb-8 text-brown-800 max-w-3xl mx-auto leading-relaxed animate-on-load animate-fade-in-delay-2">
                 Transform your writing with 30 days of daily publishing. Join a community of committed writers this November.
             </p>
-            <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" class="inline-block bg-bottle-green-600 hover:bg-bottle-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg animate-on-load animate-fade-in-delay-3">
+            <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" rel="noopener" class="inline-block bg-bottle-green-600 hover:bg-bottle-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg animate-on-load animate-fade-in-delay-3">
                 Join the Challenge
             </a>
         </div>
-    </section>
+        </section>
 
-    <!-- Challenge Details -->
-    <section class="py-20 bg-manila-50">
+        <!-- Challenge Details -->
+        <section class="py-20 bg-manila-50" id="challenge">
         <div class="container mx-auto px-6">
             <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-8 text-center text-brown-950">The Challenge</h2>
             <p class="text-lg text-brown-800 mb-12 max-w-4xl mx-auto text-center leading-relaxed">
-                Like <a href="https://inkhaven.blog" class="underline text-bottle-green-700 hover:text-bottle-green-800">Inkhaven</a> but online. It's designed for writers who want to build a consistent publishing habit through community support and meaningful commitment.
+                Like <a href="https://inkhaven.blog" class="underline text-bottle-green-700 hover:text-bottle-green-800" rel="noopener" target="_blank">Inkhaven</a> but online. It's designed for writers who want to build a consistent publishing habit through community support and meaningful commitment.
             </p>
 
             <div class="bg-manila-300 border border-manila-400 rounded-xl p-8 max-w-4xl mx-auto">
@@ -132,10 +185,10 @@
                 </div>
             </div>
         </div>
-    </section>
+        </section>
 
-    <!-- Rules Section -->
-    <section class="py-20 bg-manila-200">
+        <!-- Rules Section -->
+        <section class="py-20 bg-manila-200" id="rules">
         <div class="container mx-auto px-6">
             <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-12 text-center text-brown-950">Challenge Rules</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -161,28 +214,28 @@
                 <p class="text-brown-950"><strong>Miss a day and you're out of the tontine</strong> (but welcome to continue for community support).</p>
             </div>
         </div>
-    </section>
+        </section>
 
-    <!-- Sign-up Section -->
-    <section id="signup" class="py-20 bg-manila-50">
+        <!-- Sign-up Section -->
+        <section id="signup" class="py-20 bg-manila-50">
         <div class="container mx-auto px-6">
             <h2 class="font-cabin text-4xl md:text-5xl font-bold mb-8 text-center text-brown-950">Ready to Transform Your Writing?</h2>
             <p class="text-lg text-brown-800 mb-12 max-w-3xl mx-auto text-center">
                 We're gathering interest for the November 2025 challenge. Sign up below to be notified when registration opens and help us gauge demand.
             </p>
             <div class="text-center">
-                <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" class="inline-block bg-bottle-green-600 hover:bg-bottle-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                <a href="https://airtable.com/appz5ts1KmAFm3Hem/pagvaw3ZSl27BMbTd/form" target="_blank" rel="noopener" class="inline-block bg-bottle-green-600 hover:bg-bottle-green-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                     Register Your Interest
                 </a>
             </div>
         </div>
-    </section>
-
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="bg-manila-300 border-t border-manila-400 py-12">
         <div class="container mx-auto px-6 text-center">
-            <p class="text-brown-800 mb-2">&copy; 2025 BloWriMo. Building on the success of the <a href="https://inkhaven.blog" class="text-bottle-green-700 hover:text-bottle-green-800 transition-colors underline">Inkhaven</a> writing residency.</p>
+            <p class="text-brown-800 mb-2">&copy; 2025 BloWriMo. Building on the success of the <a href="https://inkhaven.blog" class="text-bottle-green-700 hover:text-bottle-green-800 transition-colors underline" rel="noopener" target="_blank">Inkhaven</a> writing residency.</p>
             <p class="text-brown-800">Questions? <a href="mailto:blowrimo@henrystanley.com" class="text-bottle-green-700 hover:text-bottle-green-800 transition-colors underline">Email us</a>.</p>
         </div>
     </footer>
